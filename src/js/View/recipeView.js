@@ -33,7 +33,7 @@ class RecipeView {
 
   _generateMarkup() {
     return `
-         <img width="100" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="food1" />
+         <img width="100" src="${this._data.imgURL}" alt="food1" />
         <h2 class="modal__header">
             ${this._data.title} <br />
         </h2>

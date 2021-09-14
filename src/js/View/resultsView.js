@@ -51,7 +51,7 @@ class ResultsView {
       <div class="col-md-4">
         <div class="inner">
           <div class="image">
-            <img width="100" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="food1" />
+            <img width="100" src="${meal.imgURL}" alt="food1" />
           </div>
   
           <div class="content">

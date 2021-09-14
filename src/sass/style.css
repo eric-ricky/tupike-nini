@@ -99,6 +99,10 @@ header .title p {
 }
 
 @media screen and (max-width: 768px) {
+  header .container {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+  }
   header .title {
     padding: 1rem 1.2rem;
   }
@@ -202,6 +206,12 @@ header .title p {
 }
 
 @media screen and (max-width: 768px) {
+  .search-results .container {
+    padding-top: 1rem;
+  }
+  .search-results .title {
+    margin-bottom: 1.5rem;
+  }
   .row .col-md-4 {
     flex-basis: 100%;
   }
@@ -298,6 +308,15 @@ header .title p {
     transform: rotate(360deg);
   }
 }
+@media screen and (max-width: 768px) {
+  .spinner {
+    margin: 2rem auto;
+  }
+  .spinner svg {
+    height: 4rem;
+    width: 4rem;
+  }
+}
 
 /* =========== Error message ============ */
 .error {
@@ -321,6 +340,15 @@ header .title p {
   font-size: 1.8rem;
   line-height: 1.5;
   font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .error {
+    padding: 1rem 4rem;
+  }
+  .error p {
+    font-size: 1rem;
+  }
 }
 
 /* =========== Copyright ============== */

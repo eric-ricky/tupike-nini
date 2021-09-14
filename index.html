@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOODY - Find meals for your ingridients</title>
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="/src/sass/style.css" />
+
+    <script type="module" defer src="/src/js/controller.js"></script>
+  </head>
+  <body>
+    <div class="holder">
+      <!-- HEADER SECTION -->
+      <header class="header">
+        <div class="container">
+          <div class="title">
+            <h2>Find meals for your ingridients</h2>
+            <p>
+              A recipe has no soul. You as the cook, must bring soul to the
+              recipe. <span>~ Thomas Keller</span>
+            </p>
+          </div>
+
+          <form class="search">
+            <input
+              type="text"
+              class="search__field"
+              placeholder="Search over 1,000,000 recipes..."
+            />
+            <button class="btn search__btn">
+              <svg class="search__icon">
+                <use href="src/img/icons.svg#icon-search"></use>
+              </svg>
+              <span>Search</span>
+            </button>
+          </form>
+        </div>
+      </header>
+      <!-- ===END HEADER -->
+
+      <!-- ===========SEARCH RESULTS SECTION ========== -->
+      <section class="search-results">
+        <div class="container">
+          <div class="title">
+            <h2>Your search results:</h2>
+          </div>
+
+          <div class="search-results">
+            <!-- Error message -->
+            <!-- <div class="error">
+                <div>
+                  <svg>
+                    <use href="src/img/icons.svg#icon-alert-triangle"></use>
+                  </svg>
+                </div>
+                <p>No recipes found for your query. Please try again!</p>
+              </div> -->
+
+            <!-- Spinner -->
+            <!-- <div class="spinner">
+                <svg>
+                  <use href="src/img/icons.svg#icon-loader"></use>
+                </svg>
+              </div> -->
+
+            <div class="row results">
+              <!-- <div class="col-md-4">
+                <div class="inner">
+                  <div class="image">
+                    <img width="100" src="/src/img/food1.jpg" alt="food1" />
+                  </div>
+
+                  <div class="content">
+                    <h4 class="title">Pasta with Tomato Cream ...</h4>
+                    <a data-id="1" href="#" class="btn">Get Recipe</a>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+
+            <div class="pagination">
+              <!-- <button class="btn--inline pagination__btn--prev">
+                <svg class="search__icon">
+                  <use href="src/img/icons.svg#icon-arrow-left"></use>
+                </svg>
+                <span>Page 1</span>
+              </button>
+              <button class="btn--inline pagination__btn--next">
+                <span>Page 3</span>
+                <svg class="search__icon">
+                  <use href="src/img/icons.svg#icon-arrow-right"></use>
+                </svg>
+              </button> -->
+            </div>
+          </div>
+
+          <div class="modal hidden">
+            <button class="btn--close-modal">&times;</button>
+            <div class="modal--inner">
+              <h2 class="modal__header">
+                Open your bank account <br />
+                in just <span class="highlight">5 minutes</span>
+              </h2>
+            </div>
+          </div>
+          <div class="overlay hidden"></div>
+
+          <p class="copyright">
+            &copy; Copyright by
+            <a
+              class="twitter-link"
+              target="_blank"
+              href="https://www.linkedin.com/in/erick-otieno-7532b01b9/"
+              >Erick Ricky</a
+            >. All rights Researved
+          </p>
+        </div>
+      </section>
+      <!-- === END SEARCH RESULTS -->
+    </div>
+  </body>
+</html>

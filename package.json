@@ -1,0 +1,19 @@
+{
+  "name": "foody",
+  "version": "1.0.0",
+  "description": "A web app for searching meal ideas for your ingridients",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Eric Ricky",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "core-js": "^3.17.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
